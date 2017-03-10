@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Get It Done</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/pikaday.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-logo">Get It Done. </h1>
+        <hr />
+
+        <div class="row">
+                <div class="form-group">
+                    <select id="todoCategory" class="form-control">
+                        <option value="">Select Category...</option>
+                        <option value="">Work</option>
+                        <option value="">Personal</option>
+                        <option value="">School</option>
+                        <option value="">Friends</option>
+                        <option value="">Family</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="todoDueAt" class="form-control" placeholder="Due Date" />
+                </div>
+            </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <input id="todoTask" type="text" class="form-control" placeholder="Description">
+            </div>
+        </div>
+        <span class="input-group-btn">
+             <button id="todoButton" class="btn btn-default" type="button">Add Task</button>
+        </span>
+
+        <ul id="todos" class="list-group">
+
+        </ul>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+    <script src="js/pikaday.js"></script>
+    <script src="js/todos.js"></script>
+</body>
+</html>
+

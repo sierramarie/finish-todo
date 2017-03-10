@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+    background-color: #FAE3E3;
+}
+h1 {
+    text-align: center;
+}
+#todoButton {
+    text-align: center;
+    margin-left: 460px;
+    height: 56px;
+    width: 175px;
+    border-radius: 4%; background-color: #CFA5B4;
+}
+.row {
+    text-align: center;
+    font-size: 26px;
+    padding: 28px;  
+    margin: 40px;
+}
+.center {
+    position: relative;
+    top: 250px;
+    left: 100px;
+    margin-right: 210px;
+}
+#categoryToDo {
+    margin: -1px;
+    background-color: #C98BB9;
+}
+#todoDueDate {
+    padding: -1px;
+    background-color: #846B8A;
+}
+#todoToDo {
+    padding: 40px;
+}
+#todoTask {
+    float: center;
+}
+.list-group {
+    margin: 50px;
+}
+.list-group-item {
+    padding: 20px;
+}
+.list-group-item > .badge {
+    float: center;
+}
+#check{
+    margin-top: 10px;
+}
